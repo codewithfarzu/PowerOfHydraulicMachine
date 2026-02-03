@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.owl-carousel .owl-stage {
+  transition-timing-function: linear !important;
+}
+
+body {font-family: 'lato', sans-serif; font-size: 16px;}
+
+:root {
+    --yellow: #F5B41A;
+    --blue: #1C1244;
+    --black: #000;
+    --white: #fff;
+}
+
+a {text-decoration: none; color: #000;}
+ul {padding: 0px; margin: 0;}
+ul li {list-style: none;}
+p {font-size: 16px; margin-bottom: 0px; line-height: 1.7;}
+h1,h2,h3,h4 {margin-bottom: 0px; font-weight: 600;}
+.text-warning{color: #daa520 !important;}
+input{border: none; outline: none;}
+button{outline: none; border: none;}
+/* ================= section css ================ */
+section {padding: 50px 0px;}
+
+/* footer css */
+.footer {padding: 50px 0px;}
+
+/* footer css */
+
+
+/* navbar css start========================================================== */
+
+.dropdown:hover .dropdown-menu {display: block !important;}
+.dropdown-menu .dropdown-item {color: var(--black) !important; font-size: 16px; font-weight: 600;}
+.dropdown-menu .dropdown-item:hover {background: var(--yellow); color: #fff !important;}
+.navbar {background-color: #fff !important;padding: 10px !important; z-index: 9999;}
+.nav-link {padding-bottom: 0px !important; color: var(--black) !important;}
+.nav-item .nav-link {font-weight: 500; font-size: 18px;}
+.nav-item .nav-active {color: var(--yellow) !important;}
+.nav-item:hover .nav-link {color: goldenrod !important; transition: 0.5s ease-out;}
+.navbar-expand-lg .navbar-nav .dropdown-menu {position: absolute; top: 45px;}
+
+/*=========== Rajesh Logo ============*/
+.logo {width: 200px;}
+
+.customer-care-box {background: goldenrod; color: #fff; padding: 12px 20px; display: flex; align-items: center; gap: 15px; border-radius: 2px; cursor: pointer;}
+.customer-care-box .care-icon {background: #ffffff; color: #3c3c3c; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 3px; font-size: 18px;}
+.customer-care-box .care-text span {display: block; font-size: 18px; color: #ffffff; font-weight: 500;}
+.customer-care-box .care-text strong {font-size: 18px; color: #ffc107; font-weight: 700;}
+.customer-care-box:hover {background-color: var(--yellow); transition: 0.5s ease-out;}
+.customer-care-box:hover .care-text strong {color: var(--black);}
+
+/* navbar css end ==================================================================*/
+
+/* Caraousel start =============================================================== */
+
+.carousel-item img {width: 100% !important;}
+img {max-width: 100%; height: auto;}
+
+/* Caraousel end =============================================================== */
+
+
+/* Engineering Section start =============================================================== */
+
+.engi_heading{color: #daa520; margin-bottom: 50px;}
+.engi_heading h1 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.engi_heading h1::after {
+  content: "";
+  position: absolute;
+  left: 60%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 120%;
+  height: 3px;
+  background-color: #daa520; /* underline color */
+}
+
+
+.content-details{margin-top: 20px;}
+.content-details .text1{margin-right: 10px;}
+.big-para{margin-top: 30px;}
+.man-content{display: flex; justify-content: center; align-items: center;}
+.Engineering_img{width: 50%;}
+.Engineering_btn{border: none; background-color: rgb(167, 162, 23); color: #fff; width: 70%; border-radius: 5%;}
+.Engineering_btn:hover{background-color: rgb(107, 105, 59)}
+
+/* p{margin-bottom: 15px; font-size: 15px;} */
+.btn{background-color: #c5b016; color: white;}
+.btn:hover{background-color: #99995f;}
+
+section{padding: 50px 0px;}
+/* Engineering Section end =============================================================== */
+
+/* Maintaince Section start ============================================ */
+.main-card-maintaince{padding: 50px 15px;}
+.small-card h2{color: #daa520;}
+.maintaine_section .main-card-maintaince{transition: all .3s ease-in-out;}
+.maintaine-heading h2{font-size: 25px;}
+.main-card-maintaince:hover{transform: translateY(-25px);}
+/* .main-card-maintaince:hover{box-shadow: 0 0 0 0 0 !important;} */
+
+/* ===========================================
+Services Section
+=========================================== */
+
+.services {padding: 80px 0; background-color: #f8f8f8;}
+.services .all-sec-heading h2 {font-size: 32px; color: #007bff; text-align: center;}
+.services .all-sec-heading h3 {font-size: 22px; text-align: center; font-weight: 400; margin-top: 10px;}
+.service-card {background-color: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,0.05); margin-bottom: 30px; transition: all 0.3s;}
+.service-card:hover {transform: translateY(-5px);}
+.service-card .service-img img {border-bottom: 1px solid #ddd;}
+.service-card .service-content {padding: 20px;}
+.service-card .service-content h3 {font-size: 20px; margin-bottom: 10px; color: #007bff;}
+.service-card .service-content p {font-size: 14px; color: #555;}
+.service-card .read-more {display: inline-block; margin-top: 10px; color: #007bff; font-weight: 500; transition: all 0.3s;}
+.service-card .read-more:hover {text-decoration: underline;}
+
+/* ===========================================
+    About Section
+=========================================== */
+
+.about-image{display: flex; justify-content: center; align-items: start; height: 100%;}
+.about-section {padding: 80px 0; background-color: #fff;}
+.about-section .about-heading{margin: 0 0 40px 0;}
+.about-section .about-heading h2 {font-size: 40px; color: goldenrod;}
+
+.about-section .about-heading h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.about-section .about-heading h2::after {
+  content: "";
+  position: absolute;
+  left: 73%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 145%;
+  height: 3px;
+  background-color: #daa520;
+}
+
+.about-section .about-para p {font-size: 16px; color: #555;}
+.about-section .about-para i{font-weight: 600;}
+.about-section .about-para .span{color: goldenrod;}
+.about-section .content-details p{margin-right: 20px; font-weight: 600; font-size: 16px; font-family: 'lato',sans-serif;}
+.content-details p a{color: goldenrod;}
+.about-btn {margin-top: 20px; display: flex; align-items: center; gap: 20px;}
+.about-btn a {padding: 10px 25px; background-color: #daa520; color: #fff; border-radius: 5px; transition: all 0.3s;}
+.about-btn a:hover {background-color: #ffd700; color: #000;}
+
+/* ===========================================
+Our Products Section
+=========================================== */
+.products_section{background-color: #2f4f4f; color: goldenrod;}
+.products_section .our_product h2{font-size: 40px;}
+
+.our_product h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.our_product h2::after {
+  content: "";
+  position: absolute;
+  left: 57%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 110%;
+  height: 3px;
+  background-color: #daa520; /* underline color */
+}
+
+
+/* .products_section .our_product .span{} */
+.products_section .card-1{text-align: center;}
+/* .products_section .our-product .line_box{} */
+/* .products_section .our-product .line_box .h_line{width: 50%; height: 5px; color: #fff; background: #fff;} */
+.products_section .card_text .card_p1 a{font-size: 20px; color: #fff; font-weight: 600; transition: .3s ease-in-out;}
+.products_section .card_text .card_p1 a:hover{color: #daa520;}
+.products_section .card_text .read_more{margin-top: 20px; text-align: center;}
+.products_section .card_text .read_more a{color: goldenrod; font-size: 13px; transition: .3s ease-in-out;}
+.products_section .card_text .read_more i{color: #fff !important; font-size: 13px; margin-left: 5px;}
+.products_section .card_text .read_more a:hover{color: #fff;}
+/* .products_section .card_text .read_more i:hover {color: #fff;} */
+.products_section .get_quote{text-align: start;}
+.quote-btn{background-color: #daa520; color: #000; padding: 12px 20px; transition: .5s ease-in-out;}
+.quote-btn:hover{background-color: #ffd700; color: black;}
+
+/* ===========================================
+    Infrastructure Section
+=========================================== */
+
+.infra_section .infra_heading{margin-bottom: 40px;}
+.infra_section .infra_heading h2{font-size: 34px; font-family: 'Roboto', sans-serif; color:#555;}
+.infra_para{margin-bottom: 60px;}
+.infra_para .para_1, .para_2, .para_3, .para_4{margin-bottom: 30px; color: #3c3c3c;}
+/* Owl Carousel */
+#owl-demo .item{margin: 10px;}
+#owl-demo .item img{display: block; width: 100%; height: auto;}
+
+/* ===========================================
+    Client Review Section
+=========================================== */
+.review_section{background-color:#ddd;}
+.review_section .review_outer{background-color:darkslategrey; padding: 100px 0;}
+/* .review_section .review_outer .review_inner{} */
+.review_section .review_outer .review_inner .review_heading{margin-bottom: 50px;}
+.review_section .review_outer .review_inner .review_heading h2{font-size: 40px; display: inline-block; position: relative; padding-bottom: 10px; color: #daa520;}
+.review_section .review_outer .review_inner .review_heading h2::after{content: ''; position: absolute; left: 52%; bottom: 0; transform: translateX(-50%); width: 75%; height: 4px; background-color: #daa520; border-radius: 5px;}
+.review_section .card_carousel .client_review{text-align: center; padding: 0 20px; color: #fff; font-size: 22px; font-style: oblique;}
+.card_carousel .client_profile{justify-items: center;}
+.card_carousel .client_name{font-size: 18px; font-weight: 600; color: #fff; margin-top: 40px;}
+.card_carousel .client_address{font-size: 14px; color: #fff;}
+
+/* ===========================================
+    Event Section
+=========================================== */
+
+.event_section .event_heading h2{font-size: 44px; color: #555;}
+.bottom-line{
+    width: 80px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #daa520;
+}
+.event_section .event_box{border-bottom: 3px solid #808888; transition: all .3s ease-in-out;}
+.event_box:hover{transform: translateY(-15px); border-bottom: 3px solid #daa520;}
+.event_text p a{font-size: 20px; transition: .3s ease-in-out;}
+.event_text p a:hover{color: #daa520;}
+.event_text .event_date time{color: #555;}
+
+/* ===========================================
+    Certificate Section
+=========================================== */
+/* .cert_section{} */
+.cert_section .cert_heading{margin-bottom: 20px;}
+.cert_section .cert_heading h2{font-size: 40px; margin-bottom: 15px; color: #555;}
+.cert_section .cert_img{padding: 10px;}
+.cert_section .cert_img .cert-text{justify-items: center;}
+.cert_img .cert-text p{font-size: 28px;}
+
+/* ===========================================
+    Growing Section
+=========================================== */
+.grow_section{background-color: #2f4f4f;}
+.grow_section .grow_text{margin-top: 70px;}
+.grow_section .grow_text h2{color: #fff; font-size: 40px;}
+.grow_section .grow_text .line{border-bottom: 2px solid #daa520;}
+
+.skills-wrapper { 
+  padding: 50px 0 0 0;
+}
+
+.skill {
+  color: #daa520;
+}
+
+.skill p{color: #fff;}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(198 164 27) 342deg, rgb(255, 255, 255) 0deg);  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle::before {
+  content: "";
+  width: 110px;
+  height: 110px;
+  background: #2f4f4f;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.number {
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+}
+.grow_section .grow_img{margin-top: 70px; text-align: center;}
+.grow_img img{border-radius: 10% 0 10% 0}
+
+
+/* ===========================================
+    Our Client Section
+=========================================== */
+
+/* .our-client_section{} */
+.our-client_section .client_heading{justify-items: center; margin-bottom: 50px;}
+.our-client_section .client_heading h2{font-size: 40px; color: #555; margin-bottom: 15px;}
+.our-client_section  p{margin-bottom: 22px; color: #808888; }
+.our-client_section  .p2{margin-top: 22 px; }
+.our-client_section .card_carousel .item .client_img{height: 80px !important; width:auto;}
+.our-client_section .card_carousel .item{justify-items: center;}
+
+/* ===========================================
+    News Section
+=========================================== */
+
+.news_section{background:#2f4f4f}
+/* .news_section .news_heading {} */
+.news_section .news_heading h2{color: #fff; font-size: 30px;}
+.news_section .news_form{position: relative; display: block; margin: 0px; width: 100%; padding-right: 165px; text-align: center;}
+.news_section .news_form input[type="email"]{position: relative; display: block; width: 100%; line-height: 36px; height: 56px; font-size: 14px; color: #222; background: #fff; padding: 10px 20px 10px 50px; transition: all 300ms ease; -webkit-transition: all 300ms ease}
+.news_section .news_form .form-btn{position: absolute; right: 0px; top: 0px; color: #fff; font-size: 16px; font-weight: 700; cursor: pointer; padding: 16px 52px; background-color: #daa520;}
+.news_section .news_form .icon{position: absolute; left: 24px; top: 20px; z-index: 1; color: #888; font-size: 16px; line-height: 1em;}
+
+
+/* ===========================================
+    From Message Section 
+   =========================================== */
+
+  /* .form_section {} */
+  /* .form_ section .form_content {} */
+  .form_content .form_heading {background: #daa520; padding: 45px 35px; cursor: pointer;}
+  .form_ section .form_content .form_heading strong {font-size: 18px;}
+  .form_content .form_heading strong span {font-size: 26px; margin-right: 20px;}
+  .msg_form input[type="text"],
+  .msg_form input[type="email"],
+  .msg_form textarea {width: 100%; padding: 15px 15px; margin-bottom: 20px;}
+  input[type="text"],
+  input[type="email"],
+  input[type="text"],
+  textarea {background: lightgray;}
+  .msg_form textarea {height: 150px; border: none; outline: none;}
+  .msg_form .form-btn {padding: 16px 52px; background-color: #daa520; color: #fff; transition: all .3s ease;}
+  .msg_form .form-btn:hover {background-color: #2f4f4f; color: #fff;}
+
+  /* ===========================================
+    Footer Section 
+=========================================== */
+    .footer_section{background-color: #2f4f4f; padding: 50px 0;}
+    .footer_box{padding-bottom: 50px;}
+    .footer_section .footer_logo{justify-items: center;}
+    .footer_section .footer_logo p{color: lightgray;}
+    .footer_section .footer-btn{padding: 16px 30px; background-color: #daa520; color: #fff; transition: all .3s ease;}
+    .footer_section .footer_logo .footer-btn:hover{background-color: #ffd700;}
+    .product_heading h2{font-size: 20px; color: #fff;}
+    .product_heading .line{width: 80px; height: 1px; margin-top: 10px; margin-bottom: 20px; background: #daa520;}
+    .footer_product .product_links a{color: lightgray;}
+    .footer_product .product_links a:hover{color: #fff; text-decoration: underline;}
+    .footer_product .location_box p{color: #fff; font-weight: 500; margin-bottom: 10px;}
+    .location_box .phone_numb a{color: lightgray; margin-bottom: 10px;}
+    .location_box .cont_add p{color: lightgray; margin-top: 10px; font-size: 16px;}
+    .location_box .cont_add .map a{color: lightgray;}
+    .location_box .cont_add .mail a{color: lightgray;}
+    .location_box .cont_add .mail{margin-top: 10px;}
+    .location_box .cont_add .mail a:hover{color: #daa520;}
+    .footer_bottom{padding-top: 30px;}
+    .footer_section hr{color: #daa520;}
+    .copy_right_box .copy_right p{color: lightgray; font-size: 16px;}
+/* ===========================================
+    Footer Section 
+=========================================== */
+
+/* ===========================================
+    About Us subPage Section 
+=========================================== */
+.sub_bg{background: #2f4f4f; color: #fff;}
+.machine_tool .machine_heading h2{font-size: 40px; color: #3c3c3c;}
+.machine_tool .subtitle p, .machine_tool .text p {color: #939292;}
+.machine_tool .subtitle p {margin-bottom: 15px;}
+.machine_tool .text p {margin-top: 30px;}
+.content_img{padding-right: 50px; display: flex;justify-content: center; align-items: start; height: 100%;}
+.content_img img{border: 4px solid #daa520; border-radius: 5px;}
+.content_text .line {width: 115px; height: 2px; background: #daa520;}
+
+/* ===========================================
+  Core Purpose section
+=========================================== */
+.core-purpose-alt {background: #2f4f4f;}
+.purpose-icon {width: 120px; height: 120px; border-radius: 50%; background: #daa520; display: flex; align-items: center; justify-content: center; margin: auto; box-shadow: 0 15px 30px rgba(0,0,0,0.15);}
+.purpose-icon i {font-size: 48px; color: #2c3e50;}
+.purpose-content {padding: 30px; border-left: 5px solid #f5a623; background: #ffffff; box-shadow: 0 10px 25px rgba(0,0,0,0.08);}
+.purpose-content h2 {font-size: 34px; color: #444; margin-bottom: 15px;}
+.purpose-content p {font-size: 16px; color: #666; line-height: 1.7;}
+
+/* ===========================================
+  Management section
+=========================================== */
+.management-section{background-color: #ffffff;}
+.management-section img{border: 3px solid #daa520; border-radius: 5px;}
+.section-title {color: #0b2c6b; font-size: 32px; font-weight: 700; margin-bottom: 20px;}
+.management-content {padding-left: 18px;}
+.management-content li {font-size: 16px; line-height: 1.8; color: #333; margin-bottom: 15px;}
+
+
+/* ===========================================
+News section
+=========================================== */
+.news2_section{background: #fff;}
+.news_section .news_heading .h2-2{color: #2f4f4f;}
+.news2_section .news2_form input[type="email"]{border: 1px solid #555;}
+.news2_section .news2_form .form-btn2{background: #daa520;}
+.news2_section .news2_form .form-btn2:hover{background: #2f4f4f;}
+
+/* ===========================================
+  Power Press subPage section
+=========================================== */
+.power_section{padding-top: 20px;}
+.power_para{margin-bottom: 44px;}
+.power_para a{color: #daa520;}
+.content_text .about_para a{color: #daa520; text-decoration: underline;}
+.power_section .types_heading{margin-bottom: 35px;}
+.power_section .types_subtitle{margin-bottom: 42px;}
+.power_section .types_text{margin-bottom: 20px;}
+.machine_types .machine_heading{margin-bottom: 20px;}
+.machine_types .machine_heading h3{margin-bottom: 15px;}
+.machine_btn .view_btn, .machine_btn .inquiry_btn{padding: 10px 20px; background:#f5a623; border-radius: 4px; color: #fff; font-weight: 600; transition: all .3s ease-in-out;}
+.machine_btn .view_btn:hover, .machine_btn .inquiry_btn:hover{background: #ffd700; color: #000;}
+.machine_btn .view_btn{margin-right: 20px;}
+.machine_btn .inquiry_btn{margin-left: 20px;}
+.para_outer .outer_p_a{color: #daa520;}
+.para_outer .outer_p_a:hover{color: #2f4f4f;}
+
+.powerpress-cta{padding: 10px 0;}
+.cta_box {background-color: #2f4f4f;}
+.cta-title {color: #ffffff; font-size: 30px; font-weight: 700; margin-bottom: 10px;}
+.cta-text {color: #dcdcdc; line-height: 1.7; margin: 0;}
+.cta-btn {background-color: #daa520; color: #ffffff; padding: 12px 30px; font-weight: 600; border-radius: 4px; transition: all 0.3s ease; display: inline-block;}
+.cta-btn:hover {background-color: #ffd700; color: #2f4f4f;}
+
+
+/* ===========================================
+  Press brakes subPage section
+=========================================== */
+.types_text a{color: #daa520;}
+.types_text a:hover{color: #2f4f4f;}
+.machine_desc a{color: #daa520;}
+.machine_desc a:hover{color: #2f4f4f;}
+
+/* ===========================================
+  Contact Us
+=========================================== */
+.form_content .contact_heading2{padding: 45px 15px; border-radius: 15% 0 15% 0; cursor:unset;}
+.form_content .form_heading strong span{font-size: 22px; margin-right: 15px;}
+.media_li{margin:25px 10px 0 0}
+.media_li{margin:25px 10px 0 0; border: 2px solid #2f4f4f; width: 50px; height: 50px; border-radius: 50%; align-content: center; text-align: center; transition: all .3s ease-in-out;}
+.media_li span{font-size: 25px; color: #2f4f4f; transition: color .3s ease;}
+.media_li:hover{transform: translateY(-15px); background-color: #fff; border: transparent;}
+.media_li:hover .fa-facebook{color: blue;}
+.media_li:hover .fa-instagram{color: red;}
+.media_li:hover .fa-twitter{color: #11b1f0;}
+.media_li:hover .fa-youtube{color: red;}
+
+/* ===========================================
+    Responsive Styles
+=========================================== */
+@media(max-width: 1200px) {
+    .nav-item .nav-link {font-size: 13px;}
+    .logo {width: 190px;}
+    .customer-care-box {padding: 5px 12px;}
+    .customer-care-box .care-text span {font-size: 15px;}
+    .customer-care-box .care-text strong {font-size: 15px;}
+    .small-card p strong{font-size: 14px;}
+    .news_section .news_heading h2 {font-size: 25px;}
+    .news_section .news_form input[type="email"] {height: 45px;}
+    .news_section .news_form .form-btn {padding: 11px 52px;}
+    .cta-title{font-size: 22px;}
+
+}
+
+/* Mobile Hide (already d-none d-lg-flex used) */
+@media(max-width: 991px) {
+    .customer-care-box {display: none;}
+    .engi-image{display: none;}
+    .about_content .content_img {padding-right: 0;}
+}
+
+@media (min-width:994px){
+    .about-content{margin: 0 0 50px 0;}
+    .about-image img{position:sticky; top: 125px;}
+    .about-section .about-heading{margin-top: 40px;}
+    .content_img img{position: sticky; top: 125px;}
+  }
+
+@media (max-width:994px){
+    .about-section .about-heading{margin-top: 40px;}
+    .cert_img .cert-text p{font-size: 25px;}
+    .grow_section .grow_text h2 {font-size: 35px;}
+    .main-card-maintaince .maintaine-heading h2{font-size: 25px;}
+    .our-client_section .client_heading h2{font-size: 25px;}
+    .footer_section .footer_logo .footer-btn {padding: 10px 15px; font-size: 14px;}
+    .cta-title{font-size: 24px;}
+    .footer_section .footer_box .footer_logo {margin-bottom: 25px;}
+    .footer_section .footer-btn {padding: 10px 10px; font-size: 14px;}
+
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {text-align: center;}
+    .review_section .review_outer .review_inner .review_heading h2 {font-size: 30px;}
+    .review_section .card_carousel .client_review{font-size: 18px;}
+    .card_carousel .client_name{font-size: 16px;}
+    .skill{justify-items: center; margin-bottom: 30px;}
+    .grow_section .grow_text .h2{font-size:25px;}
+    .about-content{margin-top: 40px;}
+    .infra_section .infra_heading h2{font-size: 30px;}
+    .products_section .our_product h2{font-size: 30px;}
+    .about-section .about-heading h2 {font-size: 30px;}
+    .main-card-maintaince .maintaine-heading h2{font-size: 25px;}
+    .our-client_section .client_heading h2{font-size: 30px;}
+    .news_section .news_heading h2{font-size: 20px;}
+    .news_section .news_form {padding-right: 102px;}
+    .news_section .news_form input[type="email"]{height: 40px;}
+    .news_section .news_form .form-btn{padding: 8px 21px;}
+    .msg_form .form-btn {padding: 10px 20px;}
+    .footer_section .footer_logo .footer-btn {padding: 10px 15px; font-size: 14px;}
+    .machine_tool .machine_heading h2{font-size: 25px;}
+    .about_content .content_img{padding-right: 0;}
+    .about_content .content_text {justify-items: center;}
+    .about_content .content_text p{font-size: 15px;}
+    /* .core-container {grid-template-columns: 1fr; text-align: center;}
+    .core-content {padding: 35px 25px;}
+    .core-content .underline {margin: 0 auto 20px;} */
+    .section-title {font-size: 25px;}
+    .power_press .about-btn a{padding: 5px 10px; font-size: 14px;}
+    .machine_btn{display: grid; row-gap: 10px;}
+    .machine_btn .view_btn, .machine_btn .inquiry_btn{margin: 0 auto !important;}
+    .machine_btn .view_btn{margin: 0;}
+    .machine_btn .inquiry_btn{margin: 0;}
+    .cta-title {font-size: 22px;}
+    .cta-btn{padding: 5px 15px;}
+  }
+
+
+@media (max-width: 767px) {
+    .navbar-brand {padding: 0 !important;}
+    .logo {width: 120px;}
+    .navbar {background-color: #fff !important; padding: 10px !important;}
+    .navbar-toggler {padding: 5px;}
+    .navbar-toggler-icon {height: 20px;}
+    .nav-item .nav-link {font-size: 14px;}
+    .review_inner .review_heading h2{font-size: 30px;}
+    .products_section .get_quote{text-align: center;}
+    .review_section .review_outer{padding: 50px 0;}
+    .cert_img .cert-text p{font-size: 18px;}
+    .cert_section .cert_heading h2{font-size: 30px}
+    .grow_section .grow_text .h2{font-size: 18px;}
+    .event_text p a{font-size: 18px;}
+    .event_section .event_heading h2{font-size: 30px;}
+    .our-client_section .client_heading h2{font-size: 30px;}
+    .msg_form .msg_heading{margin-bottom: 20px;}
+    .footer_logo .logo_ftr{margin-bottom: 15px;}
+    .footer_logo .logo_ftr img{width: 190px;}
+    /* .footer_logo .footer-btn{margin-top: 15px; padding: 10px 15px;} */
+    .footer_section .footer_box .footer_logo {margin-bottom: 25px;}
+    .footer_section .footer-btn {padding: 10px 10px; font-size: 14px;}
+    .footer_product .product_heading{margin-top: 1rem;}
+
+    section{padding: 30px 0px;}
+    p{font-size: 12px;}
+    .footer {padding: 20px 0px;}
+}
+
+@media (max-width: 600px) {
+
+}
