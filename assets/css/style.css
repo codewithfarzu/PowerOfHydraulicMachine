@@ -212,6 +212,7 @@ Our Products Section
 /* Owl Carousel */
 #owl-demo .item{margin: 10px;}
 #owl-demo .item img{display: block; width: 100%; height: auto;}
+.card_carousel .owl-carousel .item img{width: 402px; height: 277px !important;}
 
 /* ===========================================
     Client Review Section
