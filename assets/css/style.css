@@ -310,7 +310,7 @@ Our Products Section
 .our-client_section .client_heading{justify-items: center; margin-bottom: 50px;}
 .our-client_section .client_heading h2{font-size: 40px; color: #555; margin-bottom: 15px;}
 .our-client_section  p{margin-bottom: 22px; color: #808888; }
-.our-client_section  .p2{margin-top: 22 px; }
+.our-client_section  .p2{margin-top: 22px;}
 .our-client_section .card_carousel .item .client_img{height: 80px !important; width:auto;}
 .our-client_section .card_carousel .item{justify-items: center;}
 
@@ -463,6 +463,21 @@ News section
 .media_li:hover .fa-instagram{color: red;}
 .media_li:hover .fa-twitter{color: #11b1f0;}
 .media_li:hover .fa-youtube{color: red;}
+
+
+/* ===========================================
+  Events Section
+=========================================== */
+.upcoming_event{margin-bottom: 40px;}
+.upcoming_event h2{color: #daa520;}
+.event_center h2{color: #daa520;}
+.event_temp img{height: 800px;}
+.future_event .event_para{margin: 0 auto;}
+.past_heading h2{color: #daa520;}
+.img-content img{height: 200px; border-radius: 5px; border: 2px solid #daa520; transition: all .3s ease-in-out;}
+.img-content:hover img{transition: transform 0.5s ease; transform: scale(1.3);}
+/* .img-content:hover img {transform: scale(1.2);} */
+
 
 /* ===========================================
     Responsive Styles
