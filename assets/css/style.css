@@ -107,8 +107,8 @@ section{padding: 50px 0px;}
 /* Maintaince Section start ============================================ */
 .main-card-maintaince{padding: 50px 15px;}
 .small-card h2{color: #daa520;}
-.maintaine_section .main-card-maintaince{transition: all .3s ease-in-out;}
-.maintaine-heading h2{font-size: 25px;}
+.maintaine_section .main-card-maintaince{transition: all .3s ease-in-out; height: 100%;}
+.maintaine-heading h2{font-size: 24px;}
 .main-card-maintaince:hover{transform: translateY(-25px);}
 /* .main-card-maintaince:hover{box-shadow: 0 0 0 0 0 !important;} */
 
